@@ -1,0 +1,86 @@
+body{
+	margin:0;
+}
+.container{
+	width:1200px;
+	margin: 0 auto;
+}
+/*header area css strat*/
+
+header{
+	border-bottom: 1px solid rgb(0 0 0 / 19%);
+}
+
+.logo{
+	width:20%;
+	margin:0 auto;
+}
+.logo img{
+	width:100%;
+}
+/*header area css end*/
+/*banner area css start*/
+#banner{
+	padding:50px 0;
+}
+.banner-content{
+	margin:0 auto;
+	width:450px;
+}
+.banner-content h1{
+	font-size:35px;
+	line-height:45px;
+	font-weight:400;
+}
+.blue{
+	color:#4285F4;
+}
+.red{
+	color:#EA4335;
+}
+.green{
+	color:#34A853;
+}
+.yellow{
+	color:#F9AB00;
+}
+.banner-img{
+	background-image:url(../images/bg-banner.jpg);
+	height:600px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+/*banner area css end*/
+/*budget area css start*/
+#budget{
+}
+.budget-title{
+	width:300px;
+}
+.budget-title h1{
+	font-size:42px;
+	line-height:47px;
+	color:#202124;
+}
+.budget-pera p{
+	font-weight:400;
+	font-size:14px;
+	line-height:19px;
+	color:#757779;
+	text-align:justify;
+}
+.budget-title-two{
+	width:100%;
+	background: #0CA26D;
+	margin-top:50px;
+	padding:50px 0;
+}
+.budget-title-two h1{
+	text-align:center;
+	font-size:60px;
+	line-height:65px;
+	padding: 0 295px;
+	color:#FFFFFF;
+}
+/*budget area css end*/
